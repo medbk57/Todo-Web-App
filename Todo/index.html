@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Modern Todo App | Stay Organized</title>
+    <meta name="title" content="Modern Todo App | Stay Organized">
+    <meta name="description" content="A beautiful and intuitive todo list application to help you stay organized and boost your productivity.">
+    <meta name="keywords" content="todo app, task manager, productivity tool, task list, todo list">
+    <meta name="author" content="Mohamed EL BOUKA">
+    <meta name="theme-color" content="#00b4d8">
+    
+    <!-- Mobile App capability -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Todo App">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- boxicons v2 -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo -->
+        <h2 class="title">TODO <span>APP</span></h2>
+
+        <!-- Input field + New task button -->
+        <div class="new-task">
+            <input type="text" placeholder="Write ..." id="task-input">
+            <button id="new-task-btn">ADD</button>
+        </div>
+
+        <!-- Tasks will be added here incha'Allah -->
+        <div class="tasks-container">
+            <ul class="tasks-list">
+                <li class="new-item error">Make sure the field isn't empty !</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="./main.js"></script>
+</body>
+</html>
